@@ -78,22 +78,16 @@ Human evaluators assigned the three classes ("good", "ok", "bad") according the 
   </p>
   The training set consists of 5 columns: Original sentence (Original), Simplified sentence (Simplified), Grammaticality score (G), Meaning preservation score (M), Simplicity score (S), and Overall score (Overall).
   
-  <h3>
-  <a id="eval" class="anchor" href="#eval" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation</h3>
-  <p>
-    Each participying team can send at most three different methods/metrics for each of the four aspects (G, M, S, Overall). 
-    The metrics will be evaluated separately for each of the four aspects. <br>
-For participants submitting classes, the metrics will be evaluated using accurracy (F-score), i.e. percentage of sentences with correctly predicted class normalised over the total number of sentences.<br>
-For participants submitting raw scores, the metrics will be evaluated using Spearman's rank correlation coefficient.
-  </p>
-  
-  <h3>
+   <h3>
 <a id="tracks" class="anchor" href="#tracks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tracks</h3>
 <p> 
 There are two tracks: constrained and unconstrained. In the constrained track, you are allowed to use only the dataset provided by us (505 sentence pairs for training). In the unconstrained track, you can additionaly use any other data for training.
 
 </p>
 
+  
+
+ 
 <h3>
 <a id="submission" class="anchor" href="#submission" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submission</h3>
 
@@ -107,9 +101,22 @@ my-metric	 2		     ok		     5.89343<br>
 ...<br>
 </p>
 <p>
+  
 It is possible to submit both classes and scores.<br>
 Participants submitting only one of the value types should assign "x" to the whole column for the other value type.
 </p>
+<p>
+Each participying team can send at most three different methods/metrics for each of the four aspects (G, M, S, Overall). 
+    The metrics will be evaluated separately for each of the four aspects. 
+    </p>
+  <h3>
+  <a id="eval" class="anchor" href="#eval" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation</h3>
+  <p>
+    
+For participants submitting classes, the metrics will be evaluated using accurracy (F-score), i.e. percentage of sentences with correctly predicted class normalised over the total number of sentences.<br>
+For participants submitting raw scores, the metrics will be evaluated using Spearman's rank correlation coefficient.
+  </p>
+  
 
 </body>
 </html>
