@@ -1,0 +1,14 @@
+0.588 IIT-Meteor
+0.585 OSVCML
+0.573 OSVCML2
+0.533 bleu
+0.527 meteor
+0.513 ter
+0.495 wer
+0.482 OSVCML1
+0.465 SimpleNets-MLP
+0.285 UoLGP-quest
+0.262 SimpleNets-RNN3
+0.262 SimpleNets-RNN2
+0.250 UoLGP-combo
+0.188 UoLGP-emb

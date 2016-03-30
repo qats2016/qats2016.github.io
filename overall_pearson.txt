@@ -1,0 +1,13 @@
+0.343 OSVCML2
+0.334 OSVCML
+0.232 SimpleNets-RNN2
+0.230 OSVCML1
+0.205 UoLGP-emb
+0.198 SimpleNets-MLP
+0.196 meteor
+0.189 UoLGP-combo
+0.144 UoLGP-quest
+0.130 ter
+0.112 SimpleNets-RNN3
+0.111 wer
+0.107 bleu
