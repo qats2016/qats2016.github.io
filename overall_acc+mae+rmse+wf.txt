@@ -1,0 +1,24 @@
+accurracy			mean absolute error		root mean squared error		weighted F score
+52.38 SimpleNets-RNN2		25.79 SimpleNets-RNN2		32.46 SimpleNets-RNN2		48.57 SMH-RandForest-best
+50.79 UoW		      	26.59 UoW		      	33.11 UoW			48.20 UoW
+48.41 SMH-RandForest-best	27.78 SimpleNets-RNN3		34.60 SMH-RandForest-best	47.54 SMH-Logistic
+47.62 SMH-Logistic		28.17 majority-class	      	36.27 SimpleNets-RNN3		46.06 SimpleNets-RNN2
+47.62 SimpleNets-RNN3		28.17 SMH-Logistic	      	37.29 SMH-RandForest		44.50 SMH-RandForest
+44.44 SMH-RandForest		28.97 SMH-RandForest-best	40.07 SMH-Logistic		40.94 meteor
+43.65 majority-class		31.75 SMH-RandForest		40.52 majority-class		40.75 SimpleNets-RNN3
+42.86 meteor			32.54 SimpleNets-MLP		41.44 MS-RandForest		39.85 MS-RandForest
+41.27 DeepBow			33.73 DeepBow			41.79 meteor			39.80 DeepIndiBow
+40.48 DeepIndiBow		34.92 DeepIndiBow		42.16 IIT-Metrics		39.30 IIT-Metrics
+39.68 IIT-Metrics		34.92 IIT-Metrics		42.70 DeepBow			38.27 MS-IBk
+39.68 MS-RandForest		35.71 MS-RandForest		42.97 DeepIndiBow		38.16 MS-IBk-best
+38.10 ter			37.30 meteor			43.78 mt-baseline		38.03 DeepBow
+38.10 mt-baseline		37.70 MS-IBk-best		43.80 MS-IBk			37.49 mt-baseline
+38.10 MS-IBk-best		39.29 MS-IBk			44.21 CLaC-0.5			34.08 ter
+38.10 MS-IBk			40.87 ter			44.30 MS-IBk-best		34.06 CLaC-0.5
+38.10 SimpleNets-MLP		41.27 CLaC-0.5			45.01 bleu			33.69 SimpleNets-MLP
+37.30 bleu			41.27 CLaC-0.7			45.16 CLaC-0.7			33.04 IIT-Default
+35.71 wer			41.27 bleu			45.67 CLaC-0.6			32.92 bleu
+34.13 CLaC-0.5			41.67 mt-baseline		46.29 ter			32.88 CLaC-0.7
+33.33 IIT-Default		42.06 CLaC-0.6			47.83 IIT-Default		32.20 CLaC-0.6
+33.33 CLaC-0.7			42.06 wer			47.94 wer			31.28 wer
+32.54 CLaC-0.6			42.46 IIT-Default		48.13 SimpleNets-MLP		26.53 majority-class
