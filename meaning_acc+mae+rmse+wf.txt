@@ -8,7 +8,7 @@ accurracy			mean absolute error		root mean squared error		weighted F score
 65.08 bleu		      	21.03 SimpleNets-MLP	      	27.94 mt-baseline		62.72 mt-baseline
 63.49 IIT			21.03 ter		      	28.10 ter			62.69 IIT
 63.49 UoW		      	21.43 bleu	      		28.34 SimpleNets-MLP		61.71 MS-IBk-best
-62.70 wer	      		21.43 meteor	      		28.43 MS-IBk-best		61.50 MajaSanja-IBk
+62.70 wer	      		21.43 meteor	      		28.43 MS-IBk-best		61.50 MS-IBk
 62.70 MS-IBk-best		22.62 wer	      		29.27 MS-IBk			60.12 meteor
 61.90 SMH-RandForest-best	23.81 SMH-RandForest-best	30.79 SMH-RandForest-best	59.69 SMH-RandForest-best
 61.90 meteor			24.21 MS-IBk-best		30.87 wer			59.06 wer

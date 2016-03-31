@@ -1,7 +1,7 @@
 accurracy			mean absolute error		root mean squared error		weighted F score
 76.19 majority-class		17.06 SimpleNets-MLP		21.63 majority-class		71.84 SMH-RandForest
 76.19 mt-baseline		17.46 SMH-RandForest		21.63 DeepBow			71.64 SMH-IBk
-76.19 DeepIndiBow		18.25 majority-clasd		21.63 DeepIndiBow		69.96 SMH-RandForest-best
+76.19 DeepIndiBow		18.25 majority-class		21.63 DeepIndiBow		69.96 SMH-RandForest-best
 76.19 DeepBow			18.25 DeepBow		      	21.63 mt-baseline		69.09 bleu
 75.40 SMH-RandForest-best	18.25 DeepIndiBow		21.82 SimpleNets-RNN2		68.82 SimpleNets-MLP
 75.40 SMH-RandForest		18.25 mt-baseline		21.98 SimpleNets-RNN3		68.36 ter
